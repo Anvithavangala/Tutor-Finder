@@ -48,7 +48,7 @@
 
         .form-box {
             width: 800px;
-            height: 560px;
+            height: 600px;
             padding: 5px;
             margin-bottom: auto;
             position: relative;
@@ -453,13 +453,15 @@
                         <div class="input-group mb-3">
                         <input type="url" name="meet" class="form-control" placeholder="meeting">
                     </div>
+                    </div>
                     <div class="col">
                     <input type="file" name="video" required accept="video/*">
                 </div>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary float-right" name="submit" value="tsignup">Sign Up</button>
-                </div><br>
+                </div>
+                <br>
                 <div class="d-flex justify-content-end links" style="color: black;">
                     Already have an account?&nbsp;<a href="{% url 'login' %}" style="color:dodgerblue">Log In</a>
                 </div>
